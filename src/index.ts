@@ -1669,7 +1669,7 @@ function FlatpickrInstance(
             : self.config.dateFormat
         );
         self.close();
-        return (eventTarget as HTMLElement).blur();
+        return;
       } else {
         self.open();
       }
